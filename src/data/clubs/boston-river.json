@@ -1,0 +1,107 @@
+{
+  "slug": "boston-river",
+  "name": "Club Atlético Boston River",
+  "shortName": "Boston River",
+  "nickname": "[PLACEHOLDER]",
+  "foundedYear": 1939,
+  "city": "Montevideo",
+  "division": "primera",
+  "crest": {
+    "id": "boston-river-crest-current",
+    "kind": "image",
+    "src": "/media/clubs/boston-river/crest.png",
+    "alt": "Escudo de Boston River: alas rojas y verdes sobre un escudo con las siglas C.A.B.R. y franjas rojas y verdes",
+    "license": "fair-use",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#D82020",
+      "secondary": "#FFFFFF",
+      "preferredScheme": "dark",
+      "note": "Rojo y verde con alas, leído del escudo real provisto (colores ajustados levemente para cumplir contraste AA, ver §6.4). Pendiente de contrastar el hex exacto contra el manual de marca oficial.",
+      "accent": "#005020"
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 1939,
+        "toYear": null,
+        "asset": {
+          "id": "boston-river-crest-current",
+          "kind": "image",
+          "src": "/media/clubs/boston-river/crest.png",
+          "alt": "Escudo de Boston River: alas rojas y verdes sobre un escudo con las siglas C.A.B.R. y franjas rojas y verdes",
+          "license": "fair-use"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": []
+  },
+  "stature": {
+    "score": 30,
+    "tier": "historico",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "boston-river-sede",
+      "name": "[PLACEHOLDER]",
+      "neighborhood": "[PLACEHOLDER]",
+      "city": "Montevideo",
+      "location": {
+        "lat": -34.9011,
+        "lng": -56.1645
+      },
+      "gallery": [],
+      "hinchada": [],
+      "trapos": [],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Sin datos verificados de sede o estadio.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": []
+  },
+  "squad": [],
+  "transfers": [],
+  "timeline": [
+    {
+      "id": "t-fundacion",
+      "date": "1939",
+      "precision": "year",
+      "title": "Fundación del club",
+      "summary": "[PLACEHOLDER] Año de fundación de conocimiento público, pendiente de citar fuente oficial.",
+      "kind": "fundacion",
+      "weight": 5,
+      "source": null,
+      "verified": false
+    }
+  ],
+  "honours": [],
+  "derbies": [],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.1,
+    "editorialStatus": "draft"
+  }
+}

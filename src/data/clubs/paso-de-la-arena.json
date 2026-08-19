@@ -1,0 +1,103 @@
+{
+  "slug": "paso-de-la-arena",
+  "name": "Club Social y Deportivo Paso de la Arena",
+  "shortName": "Paso de la Arena",
+  "nickname": "[PLACEHOLDER]",
+  "foundedYear": 0,
+  "city": "Montevideo",
+  "division": "otra",
+  "crest": {
+    "id": "paso-de-la-arena-crest",
+    "kind": "image",
+    "src": "/media/clubs/paso-de-la-arena/log.png",
+    "alt": "Escudo de Paso de la Arena: escudo verde con una franja diagonal amarilla y las siglas \"C.S.D. P. de la A.\"",
+    "license": "unknown",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#006000",
+      "secondary": "#F0F000",
+      "preferredScheme": "dark",
+      "note": "Colores leídos del escudo (verde y amarillo). \"Paso de la Arena\" es un barrio de Montevideo, de ahí la ciudad indicada."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 0,
+        "toYear": null,
+        "asset": {
+          "id": "paso-de-la-arena-crest",
+          "kind": "image",
+          "src": "/media/clubs/paso-de-la-arena/log.png",
+          "alt": "Escudo de Paso de la Arena: escudo verde con una franja diagonal amarilla y las siglas \"C.S.D. P. de la A.\"",
+          "license": "unknown"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": []
+  },
+  "stature": {
+    "score": 5,
+    "tier": "emergente",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "paso-de-la-arena-sede",
+      "name": "[PLACEHOLDER]",
+      "neighborhood": "[PLACEHOLDER]",
+      "city": "Montevideo",
+      "location": {
+        "lat": -34.9011,
+        "lng": -56.1645
+      },
+      "gallery": [],
+      "hinchada": [
+        {
+          "id": "paso-de-la-arena-media-0",
+          "kind": "image",
+          "src": "/media/clubs/paso-de-la-arena/hinchada_1.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Paso de la Arena, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        }
+      ],
+      "trapos": [],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Sin datos verificados de sede o estadio.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": []
+  },
+  "squad": [],
+  "transfers": [],
+  "timeline": [],
+  "honours": [],
+  "derbies": [],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.05,
+    "editorialStatus": "draft"
+  }
+}

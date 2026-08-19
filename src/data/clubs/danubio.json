@@ -1,0 +1,178 @@
+{
+  "slug": "danubio",
+  "name": "Danubio Fútbol Club",
+  "shortName": "Danubio",
+  "nickname": "[PLACEHOLDER]",
+  "foundedYear": 1932,
+  "city": "Montevideo",
+  "division": "primera",
+  "crest": {
+    "id": "danubio-crest",
+    "kind": "image",
+    "src": "/media/clubs/danubio/logo.png",
+    "alt": "Escudo de Danubio F.C.: escudo blanco y negro con una banda diagonal, las siglas \"D.F.C.\" y cuatro estrellas doradas",
+    "license": "unknown",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#1B1B1B",
+      "secondary": "#FFFFFF",
+      "accent": "#C9A227",
+      "preferredScheme": "dark",
+      "note": "[PLACEHOLDER] Colores leídos del escudo provisto (blanco, negro y estrellas doradas); el club es conocido públicamente por vestir de azul y blanco, pero ese color no figura en este escudo por lo que no se usa aquí. Pendiente de contrastar contra el manual de marca oficial."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 1932,
+        "toYear": null,
+        "asset": {
+          "id": "danubio-crest",
+          "kind": "image",
+          "src": "/media/clubs/danubio/logo.png",
+          "alt": "Escudo de Danubio F.C.",
+          "license": "unknown"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": []
+  },
+  "stature": {
+    "score": 45,
+    "tier": "historico",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "danubio-sede",
+      "name": "[PLACEHOLDER]",
+      "neighborhood": "[PLACEHOLDER]",
+      "city": "Montevideo",
+      "location": {
+        "lat": -34.9011,
+        "lng": -56.1645
+      },
+      "gallery": [],
+      "hinchada": [
+        {
+          "id": "danubio-media-0",
+          "kind": "image",
+          "src": "/media/clubs/danubio/hinchada_1.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Danubio, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        },
+        {
+          "id": "danubio-media-1",
+          "kind": "image",
+          "src": "/media/clubs/danubio/hinchada_2.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Danubio, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        },
+        {
+          "id": "danubio-media-2",
+          "kind": "image",
+          "src": "/media/clubs/danubio/hinchada_3.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Danubio, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        },
+        {
+          "id": "danubio-media-3",
+          "kind": "image",
+          "src": "/media/clubs/danubio/hinchada_4.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Danubio, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        },
+        {
+          "id": "danubio-media-4",
+          "kind": "image",
+          "src": "/media/clubs/danubio/hinchada_5.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Danubio, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        },
+        {
+          "id": "danubio-media-5",
+          "kind": "image",
+          "src": "/media/clubs/danubio/hinchada_6.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Danubio, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        }
+      ],
+      "trapos": [],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Sin datos verificados de sede o estadio.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": []
+  },
+  "squad": [],
+  "transfers": [],
+  "timeline": [
+    {
+      "id": "t-fundacion",
+      "date": "1932",
+      "precision": "year",
+      "title": "Fundación del club",
+      "summary": "[PLACEHOLDER] Año de fundación de conocimiento público, pendiente de citar fuente oficial.",
+      "kind": "fundacion",
+      "weight": 5,
+      "source": null,
+      "verified": false
+    },
+    {
+      "id": "t-1988-primer-campeonato",
+      "date": "1988",
+      "precision": "year",
+      "title": "Primer campeonato",
+      "summary": "[PLACEHOLDER] Danubio gana su primer campeonato, pendiente de citar fuente oficial.",
+      "kind": "titulo",
+      "weight": 4,
+      "source": null,
+      "verified": false
+    },
+    {
+      "id": "t-1989-semifinal-libertadores",
+      "date": "1989",
+      "precision": "year",
+      "title": "Semifinales de la Copa Libertadores",
+      "summary": "[PLACEHOLDER] Danubio llega a semifinales de la Copa Libertadores, pendiente de citar fuente oficial.",
+      "kind": "hito",
+      "weight": 4,
+      "source": null,
+      "verified": false
+    }
+  ],
+  "honours": [],
+  "derbies": [],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.1,
+    "editorialStatus": "draft"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "juventud",
+  "name": "Club Atlético Juventud",
+  "shortName": "Juventud",
+  "nickname": "[PLACEHOLDER]",
+  "foundedYear": 1911,
+  "city": "Las Piedras",
+  "division": "primera",
+  "crest": {
+    "id": "juventud-crest-current",
+    "kind": "image",
+    "src": "/media/clubs/juventud/crest.png",
+    "alt": "Escudo de Juventud: escudo azul y blanco con las siglas C, A, J y una estrella en la parte superior",
+    "license": "fair-use",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#105090",
+      "secondary": "#FFFFFF",
+      "preferredScheme": "dark",
+      "note": "Azul y blanco, leído del escudo real provisto. Pendiente de contrastar el hex exacto contra el manual de marca oficial."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 1911,
+        "toYear": null,
+        "asset": {
+          "id": "juventud-crest-current",
+          "kind": "image",
+          "src": "/media/clubs/juventud/crest.png",
+          "alt": "Escudo de Juventud: escudo azul y blanco con las siglas C, A, J y una estrella en la parte superior",
+          "license": "fair-use"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": []
+  },
+  "stature": {
+    "score": 30,
+    "tier": "historico",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "juventud-sede",
+      "name": "Parque Artigas",
+      "neighborhood": "[PLACEHOLDER]",
+      "city": "Las Piedras",
+      "location": {
+        "lat": -34.9011,
+        "lng": -56.1645
+      },
+      "gallery": [],
+      "hinchada": [],
+      "trapos": [],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Sin datos verificados de sede o estadio.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": []
+  },
+  "squad": [],
+  "transfers": [],
+  "timeline": [
+    {
+      "id": "t-fundacion",
+      "date": "1911",
+      "precision": "year",
+      "title": "Fundación del club",
+      "summary": "[PLACEHOLDER] Año de fundación de conocimiento público, pendiente de citar fuente oficial.",
+      "kind": "fundacion",
+      "weight": 5,
+      "source": null,
+      "verified": false
+    }
+  ],
+  "honours": [],
+  "derbies": [],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.1,
+    "editorialStatus": "draft"
+  }
+}

@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+@import './skin.css';
+@import './transitions.css';
+
+@theme {
+  --font-sans:
+    'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --color-club-primary: var(--club-primary);
+  --color-club-secondary: var(--club-secondary);
+  --color-club-accent: var(--club-accent);
+  --color-club-surface: var(--club-surface);
+  --color-club-surface-2: var(--club-surface-2);
+  --color-club-surface-3: var(--club-surface-3);
+  --color-club-border: var(--club-border);
+  --color-club-ink: var(--club-ink);
+  --color-club-ink-muted: var(--club-ink-muted);
+  --color-club-on-primary: var(--club-on-primary);
+  --color-club-on-secondary: var(--club-on-secondary);
+  --color-club-on-accent: var(--club-on-accent);
+  --color-club-primary-readable: var(--club-primary-readable);
+  --color-club-accent-readable: var(--club-accent-readable);
+  --color-club-focus: var(--club-focus);
+
+  --ease-club: var(--motion-ease);
+}
+
+html {
+  color-scheme: var(--club-scheme);
+}
+
+body {
+  background-color: var(--club-surface);
+  color: var(--club-ink);
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 2px solid var(--club-focus);
+  outline-offset: 2px;
+}

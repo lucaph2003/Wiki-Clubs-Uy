@@ -1,0 +1,65 @@
+{
+  "slug": "clasico-uruguayo",
+  "name": "Clásico Uruguayo",
+  "aka": ["El Clásico"],
+  "sides": [
+    {
+      "clubSlug": "penarol",
+      "shortName": "Peñarol",
+      "crest": {
+        "id": "penarol-crest-derby",
+        "kind": "image",
+        "src": "/media/clubs/penarol/crest.png",
+        "alt": "Escudo de Peñarol",
+        "license": "fair-use"
+      },
+      "colors": { "primary": "#FFD100", "secondary": "#111111" },
+      "side": "left"
+    },
+    {
+      "clubSlug": "nacional",
+      "shortName": "Nacional",
+      "crest": {
+        "id": "nacional-crest-derby",
+        "kind": "image",
+        "src": "/media/clubs/nacional/crest.png",
+        "alt": "Escudo de Nacional",
+        "license": "fair-use"
+      },
+      "colors": { "primary": "#003DA5", "secondary": "#FFFFFF" },
+      "side": "right"
+    }
+  ],
+  "intensity": 5,
+  "origin": {
+    "value": "[PLACEHOLDER] El clásico más antiguo del fútbol uruguayo, entre los dos clubes más grandes del país.",
+    "source": null,
+    "verified": false
+  },
+  "headToHead": {
+    "totalMatches": { "value": 0, "source": null, "verified": false },
+    "winsBySlug": { "penarol": 0, "nacional": 0 },
+    "draws": 0,
+    "goalsBySlug": { "penarol": 0, "nacional": 0 },
+    "coverage": { "fromYear": 1900, "toYear": 2026, "competitions": ["Campeonato Uruguayo"] }
+  },
+  "crossovers": [],
+  "memorableMatches": [],
+  "games": {
+    "combinedXI": true,
+    "polls": [
+      {
+        "id": "poll-favorito",
+        "question": "¿Quién gana el próximo Clásico?",
+        "options": [
+          { "id": "opt-penarol", "label": "Peñarol", "clubSlug": "penarol" },
+          { "id": "opt-nacional", "label": "Nacional", "clubSlug": "nacional" },
+          { "id": "opt-empate", "label": "Empate" }
+        ],
+        "mockResults": { "opt-penarol": 48, "opt-nacional": 45, "opt-empate": 7 }
+      }
+    ]
+  },
+  "media": [],
+  "meta": { "schemaVersion": 1, "updatedAt": "2026-01-01", "completeness": 0.1, "editorialStatus": "draft" }
+}

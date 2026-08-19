@@ -1,0 +1,321 @@
+{
+  "slug": "penarol",
+  "name": "Club Atlético Peñarol",
+  "shortName": "Peñarol",
+  "nickname": "Aurinegro",
+  "foundedYear": 1891,
+  "city": "Montevideo",
+  "division": "primera",
+  "crest": {
+    "id": "penarol-crest-current",
+    "kind": "image",
+    "src": "/media/clubs/penarol/crest.png",
+    "alt": "Escudo de Peñarol: escudo negro con doce estrellas doradas y cuatro franjas verticales amarillas y negras",
+    "license": "fair-use",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#FFD100",
+      "secondary": "#111111",
+      "preferredScheme": "dark",
+      "note": "Amarillo y negro, leído del escudo real provisto. Pendiente de contrastar el hex exacto contra el manual de marca oficial. El amarillo NO se usa como color de texto: ver --club-primary-readable."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 1891,
+        "toYear": null,
+        "asset": {
+          "id": "penarol-crest-current",
+          "kind": "image",
+          "src": "/media/clubs/penarol/crest.png",
+          "alt": "Escudo vigente de Peñarol: doce estrellas doradas sobre franjas verticales amarillas y negras",
+          "license": "fair-use"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [
+      {
+        "id": "kit-home-2024",
+        "season": "2024/25",
+        "type": "home",
+        "flat": {
+          "id": "kit-home-2024-flat",
+          "kind": "image",
+          "src": "/media/clubs/penarol/crest.png",
+          "alt": "Camiseta titular de Peñarol 2024/25, franjas amarillas y negras",
+          "license": "unknown"
+        },
+        "palette": [
+          "#FFD100",
+          "#111111"
+        ],
+        "iconic": true
+      }
+    ],
+    "chants": [
+      {
+        "id": "ambiente-placeholder",
+        "title": "[PLACEHOLDER] Ambiente de tribuna",
+        "audio": {
+          "id": "ambiente-placeholder-audio",
+          "kind": "audio",
+          "src": "/media/audio/penarol/ambiente-placeholder.wav",
+          "alt": "Silencio de referencia: pendiente de reemplazo por un cántico real con licencia verificada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] audio sintético, no es un cántico real"
+        },
+        "kind": "ambiente",
+        "loopable": true
+      }
+    ],
+    "supporterVideos": [],
+    "mottos": [
+      "[PLACEHOLDER] Que se rinda tu madre"
+    ]
+  },
+  "stature": {
+    "score": 78.5,
+    "tier": "colosal",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "campeon-del-siglo",
+      "name": "Campeón del Siglo",
+      "neighborhood": "Barrio Peñarol",
+      "city": "Montevideo",
+      "location": {
+        "lat": -34.8496,
+        "lng": -56.2064
+      },
+      "gallery": [],
+      "hinchada": [],
+      "trapos": [],
+      "panoramas": [
+        {
+          "id": "pano-tribuna",
+          "label": "[PLACEHOLDER] Tribuna",
+          "asset": {
+            "id": "pano-tribuna-asset",
+            "kind": "panorama",
+            "src": "/media/clubs/penarol/panorama-tribuna.svg",
+            "alt": "[PLACEHOLDER] Panorámica de referencia de la tribuna, pendiente de reemplazo por una foto real",
+            "license": "unknown"
+          }
+        }
+      ],
+      "description": {
+        "value": "[PLACEHOLDER] Estadio propio del club, inaugurado en el barrio Peñarol.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [
+      {
+        "id": "mural-barrio-penarol",
+        "kind": "mural",
+        "name": "[PLACEHOLDER] Mural del barrio Peñarol",
+        "location": {
+          "lat": -34.8496,
+          "lng": -56.2064
+        },
+        "description": {
+          "value": "[PLACEHOLDER] Mural de hinchada cerca del estadio.",
+          "source": null,
+          "verified": false
+        },
+        "media": []
+      }
+    ],
+    "routes": []
+  },
+  "institution": {
+    "president": {
+      "id": "official-1",
+      "fullName": "[PLACEHOLDER] Presidente",
+      "role": "Presidente",
+      "sinceYear": 2023
+    },
+    "boardMembers": [],
+    "finances": [
+      {
+        "year": 2024,
+        "currency": "USD",
+        "revenue": {
+          "value": 0,
+          "source": null,
+          "verified": false
+        },
+        "expenses": {
+          "value": 0,
+          "source": null,
+          "verified": false
+        },
+        "note": "[PLACEHOLDER] cifras pendientes de fuente oficial"
+      }
+    ],
+    "legalName": "[PLACEHOLDER] Club Atlético Peñarol"
+  },
+  "squad": [
+    {
+      "id": "p-1",
+      "fullName": "[PLACEHOLDER] Jugador Arquero",
+      "displayName": "[PLACEHOLDER] Arquero P",
+      "position": "GK",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    },
+    {
+      "id": "p-2",
+      "fullName": "[PLACEHOLDER] Jugador Defensor",
+      "displayName": "[PLACEHOLDER] Defensor P",
+      "position": "CB",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": true
+    },
+    {
+      "id": "p-3",
+      "fullName": "[PLACEHOLDER] Jugador Volante",
+      "displayName": "[PLACEHOLDER] Volante P",
+      "position": "CM",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    },
+    {
+      "id": "p-4",
+      "fullName": "[PLACEHOLDER] Jugador Delantero",
+      "displayName": "[PLACEHOLDER] Delantero P",
+      "position": "ST",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": true
+    },
+    {
+      "id": "p-5",
+      "fullName": "[PLACEHOLDER] Jugador Lateral Derecho",
+      "displayName": "[PLACEHOLDER] Lateral D. P",
+      "position": "RB",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    },
+    {
+      "id": "p-6",
+      "fullName": "[PLACEHOLDER] Jugador Lateral Izquierdo",
+      "displayName": "[PLACEHOLDER] Lateral I. P",
+      "position": "LB",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    },
+    {
+      "id": "p-7",
+      "fullName": "[PLACEHOLDER] Jugador Volante de Marca",
+      "displayName": "[PLACEHOLDER] Volante Marca P",
+      "position": "DM",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    },
+    {
+      "id": "p-8",
+      "fullName": "[PLACEHOLDER] Jugador Enganche",
+      "displayName": "[PLACEHOLDER] Enganche P",
+      "position": "AM",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    },
+    {
+      "id": "p-9",
+      "fullName": "[PLACEHOLDER] Jugador Extremo Derecho",
+      "displayName": "[PLACEHOLDER] Extremo D. P",
+      "position": "RW",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    },
+    {
+      "id": "p-10",
+      "fullName": "[PLACEHOLDER] Jugador Extremo Izquierdo",
+      "displayName": "[PLACEHOLDER] Extremo I. P",
+      "position": "LW",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    }
+  ],
+  "transfers": [
+    {
+      "id": "t-1",
+      "playerId": "p-out-1",
+      "playerName": "[PLACEHOLDER] Jugador Vendido",
+      "direction": "out",
+      "counterpartClub": "[PLACEHOLDER] Club Comprador",
+      "year": 2023,
+      "feeUsd": {
+        "value": 0,
+        "source": null,
+        "verified": false
+      },
+      "note": "[PLACEHOLDER] pendiente de confirmar cifra"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "t-fundacion",
+      "date": "1891",
+      "precision": "year",
+      "title": "Fundación del club",
+      "summary": "[PLACEHOLDER] Fundación de Peñarol.",
+      "kind": "fundacion",
+      "weight": 5,
+      "source": null,
+      "verified": false
+    }
+  ],
+  "honours": [
+    {
+      "id": "h-uy-primera",
+      "competition": "Campeonato Uruguayo de Primera División",
+      "scope": "nacional",
+      "count": {
+        "value": 0,
+        "source": null,
+        "verified": false
+      },
+      "years": []
+    }
+  ],
+  "derbies": [
+    "clasico-uruguayo"
+  ],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.5,
+    "editorialStatus": "draft"
+  }
+}

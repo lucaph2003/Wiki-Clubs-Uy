@@ -1,0 +1,103 @@
+{
+  "slug": "mar-de-fondo",
+  "name": "Mar de Fondo Fútbol Club",
+  "shortName": "Mar de Fondo",
+  "nickname": "[PLACEHOLDER]",
+  "foundedYear": 0,
+  "city": "[PLACEHOLDER]",
+  "division": "otra",
+  "crest": {
+    "id": "mar-de-fondo-crest",
+    "kind": "image",
+    "src": "/media/clubs/mar-de-fondo/logo.png",
+    "alt": "Escudo de Mar de Fondo F.C.: escudo con franjas verticales blancas y negras",
+    "license": "unknown",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#1B1B1B",
+      "secondary": "#FFFFFF",
+      "preferredScheme": "dark",
+      "note": "Colores leídos del escudo (blanco y negro)."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 0,
+        "toYear": null,
+        "asset": {
+          "id": "mar-de-fondo-crest",
+          "kind": "image",
+          "src": "/media/clubs/mar-de-fondo/logo.png",
+          "alt": "Escudo de Mar de Fondo F.C.: escudo con franjas verticales blancas y negras",
+          "license": "unknown"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": []
+  },
+  "stature": {
+    "score": 5,
+    "tier": "emergente",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "mar-de-fondo-sede",
+      "name": "[PLACEHOLDER]",
+      "neighborhood": "[PLACEHOLDER]",
+      "city": "[PLACEHOLDER]",
+      "location": {
+        "lat": -34.9011,
+        "lng": -56.1645
+      },
+      "gallery": [],
+      "hinchada": [
+        {
+          "id": "mar-de-fondo-media-0",
+          "kind": "image",
+          "src": "/media/clubs/mar-de-fondo/hinchada_1.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Mar de Fondo, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        }
+      ],
+      "trapos": [],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Sin datos verificados de sede o estadio.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": []
+  },
+  "squad": [],
+  "transfers": [],
+  "timeline": [],
+  "honours": [],
+  "derbies": [],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.05,
+    "editorialStatus": "draft"
+  }
+}

@@ -1,0 +1,43 @@
+/* Contrato de variables de skin — ver agents.md §6.2. No inventar nuevas sin actualizar el doc. */
+
+@property --club-primary {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #1b1b1b;
+}
+
+:root,
+[data-skin='neutral'] {
+  /* --- Identidad cruda del club --- */
+  --club-primary: #1b1b1b;
+  --club-secondary: #767676;
+  --club-accent: #767676;
+
+  /* --- Superficies --- */
+  --club-surface: #0b0b0c;
+  --club-surface-2: #141416;
+  --club-surface-3: #1d1d20;
+  --club-border: color-mix(in oklab, var(--club-ink) 14%, transparent);
+
+  /* --- Texto (SIEMPRE calculado, nunca literal) --- */
+  --club-ink: #f5f5f5;
+  --club-ink-muted: color-mix(in oklab, var(--club-ink) 68%, transparent);
+  --club-on-primary: #000000;
+  --club-on-secondary: #ffffff;
+  --club-on-accent: #000000;
+
+  /* --- Versiones legibles del color de marca sobre la superficie --- */
+  --club-primary-readable: #ffd84d;
+  --club-accent-readable: #ffd84d;
+
+  /* --- Efectos --- */
+  --club-glow: color-mix(in oklab, var(--club-primary) 40%, transparent);
+  --club-focus: var(--club-primary-readable);
+  --club-scheme: dark;
+
+  /* --- Motion (los sobreescribe MotionProvider) --- */
+  --motion-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --motion-fast: 160ms;
+  --motion-base: 340ms;
+  --motion-portal: 700ms;
+}

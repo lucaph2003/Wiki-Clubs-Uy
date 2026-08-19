@@ -1,0 +1,111 @@
+{
+  "slug": "la-luz",
+  "name": "La Luz",
+  "shortName": "La Luz",
+  "nickname": "[PLACEHOLDER]",
+  "foundedYear": 0,
+  "city": "[PLACEHOLDER]",
+  "division": "otra",
+  "crest": {
+    "id": "la-luz-crest",
+    "kind": "image",
+    "src": "/media/clubs/la-luz/la_luz.png",
+    "alt": "Foto del plantel de La Luz celebrando un título junto a su hinchada; el club no cuenta con una imagen de escudo cargada",
+    "license": "unknown",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#2E7D32",
+      "secondary": "#FFFFFF",
+      "preferredScheme": "dark",
+      "note": "[PLACEHOLDER] No hay escudo disponible, solo una foto del plantel. Colores estimados de las camisetas visibles en la foto, sin confirmar."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 0,
+        "toYear": null,
+        "asset": {
+          "id": "la-luz-crest",
+          "kind": "image",
+          "src": "/media/clubs/la-luz/la_luz.png",
+          "alt": "Foto del plantel de La Luz celebrando un título junto a su hinchada; el club no cuenta con una imagen de escudo cargada",
+          "license": "unknown"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": []
+  },
+  "stature": {
+    "score": 5,
+    "tier": "emergente",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "la-luz-sede",
+      "name": "[PLACEHOLDER]",
+      "neighborhood": "[PLACEHOLDER]",
+      "city": "[PLACEHOLDER]",
+      "location": {
+        "lat": -34.9011,
+        "lng": -56.1645
+      },
+      "gallery": [],
+      "hinchada": [
+        {
+          "id": "la-luz-media-0",
+          "kind": "image",
+          "src": "/media/clubs/la-luz/hinchada_1.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de La Luz, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        },
+        {
+          "id": "la-luz-media-1",
+          "kind": "image",
+          "src": "/media/clubs/la-luz/hinchasa_2.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de La Luz, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        }
+      ],
+      "trapos": [],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Sin datos verificados de sede o estadio.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": []
+  },
+  "squad": [],
+  "transfers": [],
+  "timeline": [],
+  "honours": [],
+  "derbies": [],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.05,
+    "editorialStatus": "draft"
+  }
+}

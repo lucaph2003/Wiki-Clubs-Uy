@@ -1,0 +1,115 @@
+{
+  "slug": "cooper",
+  "name": "Cooper",
+  "shortName": "Cooper",
+  "nickname": "[PLACEHOLDER]",
+  "foundedYear": 1937,
+  "city": "[PLACEHOLDER]",
+  "division": "otra",
+  "crest": {
+    "id": "cooper-crest",
+    "kind": "image",
+    "src": "/media/clubs/cooper/logo.png",
+    "alt": "Escudo de Cooper: escudo verde con el texto \"COOPER\" y el año 1937",
+    "license": "unknown",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#10B060",
+      "secondary": "#308050",
+      "preferredScheme": "dark",
+      "note": "Colores leídos del escudo. El año 1937 figura impreso en el propio escudo del club."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 1937,
+        "toYear": null,
+        "asset": {
+          "id": "cooper-crest",
+          "kind": "image",
+          "src": "/media/clubs/cooper/logo.png",
+          "alt": "Escudo de Cooper: escudo verde con el texto \"COOPER\" y el año 1937",
+          "license": "unknown"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": []
+  },
+  "stature": {
+    "score": 5,
+    "tier": "emergente",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "cooper-sede",
+      "name": "[PLACEHOLDER]",
+      "neighborhood": "[PLACEHOLDER]",
+      "city": "[PLACEHOLDER]",
+      "location": {
+        "lat": -34.9011,
+        "lng": -56.1645
+      },
+      "gallery": [],
+      "hinchada": [
+        {
+          "id": "cooper-media-0",
+          "kind": "image",
+          "src": "/media/clubs/cooper/hinchada_1.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Cooper, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        }
+      ],
+      "trapos": [],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Sin datos verificados de sede o estadio.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": []
+  },
+  "squad": [],
+  "transfers": [],
+  "timeline": [
+    {
+      "id": "t-fundacion",
+      "date": "1937",
+      "precision": "year",
+      "title": "Fundación del club",
+      "summary": "[PLACEHOLDER] Año de fundación leído del propio escudo del club.",
+      "kind": "fundacion",
+      "weight": 5,
+      "source": null,
+      "verified": false
+    }
+  ],
+  "honours": [],
+  "derbies": [],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.05,
+    "editorialStatus": "draft"
+  }
+}

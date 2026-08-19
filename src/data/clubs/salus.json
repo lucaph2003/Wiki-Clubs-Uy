@@ -1,0 +1,107 @@
+{
+  "slug": "salus",
+  "name": "Salus Fútbol Club",
+  "shortName": "Salus",
+  "nickname": "[PLACEHOLDER]",
+  "foundedYear": 1928,
+  "city": "[PLACEHOLDER]",
+  "division": "otra",
+  "crest": {
+    "id": "salus-crest",
+    "kind": "image",
+    "src": "/media/clubs/salus/salus.png",
+    "alt": "Escudo de Salus F.C.: escudo partido en azul y rojo con las letras \"SALUS\" en dorado y el año 1928",
+    "license": "unknown",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#002050",
+      "secondary": "#D01030",
+      "accent": "#F0B010",
+      "preferredScheme": "dark",
+      "note": "Colores leídos del escudo (azul, rojo y dorado). El año 1928 figura impreso en el propio escudo del club."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 1928,
+        "toYear": null,
+        "asset": {
+          "id": "salus-crest",
+          "kind": "image",
+          "src": "/media/clubs/salus/salus.png",
+          "alt": "Escudo de Salus F.C.: escudo partido en azul y rojo con las letras \"SALUS\" en dorado y el año 1928",
+          "license": "unknown"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": []
+  },
+  "stature": {
+    "score": 5,
+    "tier": "emergente",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "salus-sede",
+      "name": "[PLACEHOLDER]",
+      "neighborhood": "[PLACEHOLDER]",
+      "city": "[PLACEHOLDER]",
+      "location": {
+        "lat": -34.9011,
+        "lng": -56.1645
+      },
+      "gallery": [],
+      "hinchada": [],
+      "trapos": [],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Sin datos verificados de sede o estadio.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": []
+  },
+  "squad": [],
+  "transfers": [],
+  "timeline": [
+    {
+      "id": "t-fundacion",
+      "date": "1928",
+      "precision": "year",
+      "title": "Fundación del club",
+      "summary": "[PLACEHOLDER] Año de fundación leído del propio escudo del club.",
+      "kind": "fundacion",
+      "weight": 5,
+      "source": null,
+      "verified": false
+    }
+  ],
+  "honours": [],
+  "derbies": [],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.05,
+    "editorialStatus": "draft"
+  }
+}

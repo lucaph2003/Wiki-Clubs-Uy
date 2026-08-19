@@ -1,0 +1,33 @@
+{
+  "clubs": [
+    "penarol",
+    "nacional",
+    "defensor-sporting",
+    "danubio",
+    "liverpool",
+    "cerro",
+    "boston-river",
+    "cerrito",
+    "juventud",
+    "rentistas",
+    "river-plate",
+    "wanderers",
+    "alto-peru",
+    "canadian",
+    "cooper",
+    "deutscher",
+    "estudiantes-del-plata",
+    "frontera-rivera",
+    "la-luz",
+    "lito",
+    "los-halcones",
+    "mar-de-fondo",
+    "parque-del-plata",
+    "paso-de-la-arena",
+    "salus",
+    "sportivo-bella-italia",
+    "terremoto",
+    "villa-teresa"
+  ],
+  "derbies": ["clasico-uruguayo"]
+}

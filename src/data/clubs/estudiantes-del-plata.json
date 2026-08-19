@@ -1,0 +1,95 @@
+{
+  "slug": "estudiantes-del-plata",
+  "name": "Unión Deportiva Estudiantes del Plata",
+  "shortName": "Estudiantes del Plata",
+  "nickname": "[PLACEHOLDER]",
+  "foundedYear": 0,
+  "city": "[PLACEHOLDER]",
+  "division": "otra",
+  "crest": {
+    "id": "estudiantes-del-plata-crest",
+    "kind": "image",
+    "src": "/media/clubs/estudiantes-del-plata/logo.png",
+    "alt": "Escudo de Estudiantes del Plata: franjas verticales rojas y blancas con banda \"U.D.E. del P.\" y borde dorado",
+    "license": "unknown",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#E00010",
+      "secondary": "#FFFFFF",
+      "accent": "#D0B060",
+      "preferredScheme": "light",
+      "note": "Nombre completo inferido de las iniciales \"U.D.E. del P.\" visibles en el escudo; no confirmado con fuente oficial. Colores leídos del escudo."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 0,
+        "toYear": null,
+        "asset": {
+          "id": "estudiantes-del-plata-crest",
+          "kind": "image",
+          "src": "/media/clubs/estudiantes-del-plata/logo.png",
+          "alt": "Escudo de Estudiantes del Plata: franjas verticales rojas y blancas con banda \"U.D.E. del P.\" y borde dorado",
+          "license": "unknown"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": []
+  },
+  "stature": {
+    "score": 5,
+    "tier": "emergente",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "estudiantes-del-plata-sede",
+      "name": "[PLACEHOLDER]",
+      "neighborhood": "[PLACEHOLDER]",
+      "city": "[PLACEHOLDER]",
+      "location": {
+        "lat": -34.9011,
+        "lng": -56.1645
+      },
+      "gallery": [],
+      "hinchada": [],
+      "trapos": [],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Sin datos verificados de sede o estadio.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": []
+  },
+  "squad": [],
+  "transfers": [],
+  "timeline": [],
+  "honours": [],
+  "derbies": [],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.05,
+    "editorialStatus": "draft"
+  }
+}

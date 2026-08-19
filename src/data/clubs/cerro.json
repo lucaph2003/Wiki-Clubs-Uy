@@ -1,0 +1,116 @@
+{
+  "slug": "cerro",
+  "name": "Club Atlético Cerro",
+  "shortName": "Cerro",
+  "nickname": "Albiceleste",
+  "foundedYear": 1922,
+  "city": "Montevideo",
+  "division": "primera",
+  "crest": {
+    "id": "cerro-crest-current",
+    "kind": "image",
+    "src": "/media/clubs/cerro/crest.png",
+    "alt": "Escudo de Cerro: triángulo invertido celeste y blanco con las siglas C.A. CERRO",
+    "license": "fair-use",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#0090D0",
+      "secondary": "#FFFFFF",
+      "accent": "#101010",
+      "preferredScheme": "dark",
+      "note": "Celeste y blanco, leído del escudo real provisto. Pendiente de contrastar el hex exacto contra el manual de marca oficial."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 1922,
+        "toYear": null,
+        "asset": {
+          "id": "cerro-crest-current",
+          "kind": "image",
+          "src": "/media/clubs/cerro/crest.png",
+          "alt": "Escudo vigente de Cerro: triángulo invertido celeste y blanco",
+          "license": "fair-use"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": []
+  },
+  "stature": {
+    "score": 40,
+    "tier": "historico",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "estadio-luis-troccoli",
+      "name": "Luis Tróccoli",
+      "neighborhood": "Cerro",
+      "city": "Montevideo",
+      "location": {
+        "lat": -34.9011,
+        "lng": -56.1645
+      },
+      "gallery": [],
+      "hinchada": [
+        {
+          "id": "cerro-hinchada-0",
+          "kind": "image",
+          "src": "/media/clubs/cerro/hinchada_1.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Cerro, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        }
+      ],
+      "trapos": [],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Estadio del club, en el barrio Cerro.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": []
+  },
+  "squad": [],
+  "transfers": [],
+  "timeline": [
+    {
+      "id": "t-fundacion",
+      "date": "1922",
+      "precision": "year",
+      "title": "Fundación del club",
+      "summary": "[PLACEHOLDER] Año de fundación de conocimiento público, pendiente de citar fuente oficial.",
+      "kind": "fundacion",
+      "weight": 5,
+      "source": null,
+      "verified": false
+    }
+  ],
+  "honours": [],
+  "derbies": [],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.1,
+    "editorialStatus": "draft"
+  }
+}

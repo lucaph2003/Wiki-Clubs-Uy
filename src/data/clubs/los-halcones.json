@@ -1,0 +1,103 @@
+{
+  "slug": "los-halcones",
+  "name": "Club Social y Deportivo Halcones",
+  "shortName": "Halcones",
+  "nickname": "[PLACEHOLDER]",
+  "foundedYear": 0,
+  "city": "[PLACEHOLDER]",
+  "division": "otra",
+  "crest": {
+    "id": "los-halcones-crest",
+    "kind": "image",
+    "src": "/media/clubs/los-halcones/logo.png",
+    "alt": "Escudo de Halcones: escudo azul con borde amarillo y un halcón gris con las alas extendidas",
+    "license": "unknown",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#202070",
+      "secondary": "#F5C518",
+      "preferredScheme": "dark",
+      "note": "Colores leídos del escudo (azul y amarillo)."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 0,
+        "toYear": null,
+        "asset": {
+          "id": "los-halcones-crest",
+          "kind": "image",
+          "src": "/media/clubs/los-halcones/logo.png",
+          "alt": "Escudo de Halcones: escudo azul con borde amarillo y un halcón gris con las alas extendidas",
+          "license": "unknown"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": []
+  },
+  "stature": {
+    "score": 5,
+    "tier": "emergente",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "los-halcones-sede",
+      "name": "[PLACEHOLDER]",
+      "neighborhood": "[PLACEHOLDER]",
+      "city": "[PLACEHOLDER]",
+      "location": {
+        "lat": -34.9011,
+        "lng": -56.1645
+      },
+      "gallery": [],
+      "hinchada": [],
+      "trapos": [
+        {
+          "id": "los-halcones-media-0",
+          "kind": "image",
+          "src": "/media/clubs/los-halcones/trapo_1.png",
+          "alt": "[PLACEHOLDER] Foto de un trapo de la hinchada de Halcones, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        }
+      ],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Sin datos verificados de sede o estadio.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": []
+  },
+  "squad": [],
+  "transfers": [],
+  "timeline": [],
+  "honours": [],
+  "derbies": [],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.05,
+    "editorialStatus": "draft"
+  }
+}

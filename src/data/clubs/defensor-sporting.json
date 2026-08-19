@@ -1,0 +1,173 @@
+{
+  "slug": "defensor-sporting",
+  "name": "Defensor Sporting Club",
+  "shortName": "Defensor Sporting",
+  "nickname": "Violeta",
+  "foundedYear": 1913,
+  "city": "Montevideo",
+  "division": "primera",
+  "crest": {
+    "id": "defensor-crest-current",
+    "kind": "image",
+    "src": "/media/clubs/defensor-sporting/crest.png",
+    "alt": "Escudo de Defensor Sporting: escudo violeta con un faro blanco y los círculos entrelazados D, S, C",
+    "license": "fair-use",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#4B1E78",
+      "secondary": "#FFFFFF",
+      "preferredScheme": "dark",
+      "note": "Violeta y blanco, leído del escudo real provisto. Pendiente de contrastar el hex exacto contra el manual de marca oficial."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 1913,
+        "toYear": null,
+        "asset": {
+          "id": "defensor-crest-current",
+          "kind": "image",
+          "src": "/media/clubs/defensor-sporting/crest.png",
+          "alt": "Escudo vigente de Defensor Sporting: faro blanco sobre fondo violeta con los círculos D, S, C",
+          "license": "fair-use"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [
+      {
+        "id": "kit-home-2024",
+        "season": "2024/25",
+        "type": "home",
+        "flat": {
+          "id": "kit-home-2024-flat",
+          "kind": "image",
+          "src": "/media/clubs/defensor-sporting/crest.png",
+          "alt": "Camiseta titular de Defensor Sporting 2024/25",
+          "license": "unknown"
+        },
+        "palette": [
+          "#4B1E78",
+          "#FFFFFF"
+        ],
+        "iconic": true
+      }
+    ],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": []
+  },
+  "stature": {
+    "score": 32,
+    "tier": "historico",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "estadio-luis-franzini",
+      "name": "Luis Franzini",
+      "neighborhood": "Malvín",
+      "city": "Montevideo",
+      "location": {
+        "lat": -34.8981,
+        "lng": -56.1281
+      },
+      "gallery": [],
+      "hinchada": [
+        {
+          "id": "defensor-sporting-hinchada-0",
+          "kind": "image",
+          "src": "/media/clubs/defensor-sporting/hinchada_1.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Defensor Sporting, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        },
+        {
+          "id": "defensor-sporting-hinchada-1",
+          "kind": "image",
+          "src": "/media/clubs/defensor-sporting/hinchada_2.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Defensor Sporting, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        },
+        {
+          "id": "defensor-sporting-hinchada-2",
+          "kind": "image",
+          "src": "/media/clubs/defensor-sporting/hinchada_3.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Defensor Sporting, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        }
+      ],
+      "trapos": [],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Estadio del club, en el barrio Malvín.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": [],
+    "legalName": "[PLACEHOLDER] Defensor Sporting Club"
+  },
+  "squad": [
+    {
+      "id": "d-1",
+      "fullName": "[PLACEHOLDER] Jugador Arquero",
+      "displayName": "[PLACEHOLDER]",
+      "position": "GK",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    }
+  ],
+  "transfers": [],
+  "timeline": [
+    {
+      "id": "t-fundacion",
+      "date": "1913",
+      "precision": "year",
+      "title": "Fundación del club",
+      "summary": "[PLACEHOLDER] Fundación de Defensor Sporting.",
+      "kind": "fundacion",
+      "weight": 5,
+      "source": null,
+      "verified": false
+    }
+  ],
+  "honours": [
+    {
+      "id": "h-uy-primera",
+      "competition": "Campeonato Uruguayo de Primera División",
+      "scope": "nacional",
+      "count": {
+        "value": 0,
+        "source": null,
+        "verified": false
+      },
+      "years": []
+    }
+  ],
+  "derbies": [],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.1,
+    "editorialStatus": "draft"
+  }
+}

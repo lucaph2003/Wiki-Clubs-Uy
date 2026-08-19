@@ -1,0 +1,244 @@
+{
+  "slug": "nacional",
+  "name": "Club Nacional de Football",
+  "shortName": "Nacional",
+  "nickname": "Tricolor",
+  "foundedYear": 1899,
+  "city": "Montevideo",
+  "division": "primera",
+  "crest": {
+    "id": "nacional-crest-current",
+    "kind": "image",
+    "src": "/media/clubs/nacional/crest.png",
+    "alt": "Escudo de Nacional: escudo con una franja diagonal blanca y las siglas C.N.deF. en rojo sobre dos triángulos azules",
+    "license": "fair-use",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#003DA5",
+      "secondary": "#FFFFFF",
+      "accent": "#DA291C",
+      "preferredScheme": "dark",
+      "note": "Azul, blanco y rojo (tricolor), leído del escudo real provisto. Pendiente de contrastar el hex exacto contra el manual de marca oficial."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 1899,
+        "toYear": null,
+        "asset": {
+          "id": "nacional-crest-current",
+          "kind": "image",
+          "src": "/media/clubs/nacional/crest.png",
+          "alt": "Escudo vigente de Nacional: franja diagonal blanca con las siglas C.N.deF. en rojo",
+          "license": "fair-use"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [
+      {
+        "id": "kit-home-2024",
+        "season": "2024/25",
+        "type": "home",
+        "flat": {
+          "id": "kit-home-2024-flat",
+          "kind": "image",
+          "src": "/media/clubs/nacional/crest.png",
+          "alt": "Camiseta titular de Nacional 2024/25",
+          "license": "unknown"
+        },
+        "palette": [
+          "#003DA5",
+          "#FFFFFF",
+          "#DA291C"
+        ],
+        "iconic": true
+      }
+    ],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": [
+      "[PLACEHOLDER] El más grande del mundo"
+    ]
+  },
+  "stature": {
+    "score": 78.5,
+    "tier": "colosal",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "gran-parque-central",
+      "name": "Gran Parque Central",
+      "neighborhood": "Prado",
+      "city": "Montevideo",
+      "location": {
+        "lat": -34.8747,
+        "lng": -56.1911
+      },
+      "gallery": [],
+      "hinchada": [],
+      "trapos": [],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Estadio histórico del club, en el barrio Prado.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": [],
+    "legalName": "[PLACEHOLDER] Club Nacional de Football"
+  },
+  "squad": [
+    {
+      "id": "n-1",
+      "fullName": "[PLACEHOLDER] Jugador Arquero",
+      "displayName": "[PLACEHOLDER] Arquero N",
+      "position": "GK",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    },
+    {
+      "id": "n-2",
+      "fullName": "[PLACEHOLDER] Jugador Defensor",
+      "displayName": "[PLACEHOLDER] Defensor N",
+      "position": "CB",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": true
+    },
+    {
+      "id": "n-3",
+      "fullName": "[PLACEHOLDER] Jugador Volante",
+      "displayName": "[PLACEHOLDER] Volante N",
+      "position": "CM",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    },
+    {
+      "id": "n-4",
+      "fullName": "[PLACEHOLDER] Jugador Delantero",
+      "displayName": "[PLACEHOLDER] Delantero N",
+      "position": "ST",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": true
+    },
+    {
+      "id": "n-5",
+      "fullName": "[PLACEHOLDER] Jugador Lateral Derecho",
+      "displayName": "[PLACEHOLDER] Lateral D. N",
+      "position": "RB",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    },
+    {
+      "id": "n-6",
+      "fullName": "[PLACEHOLDER] Jugador Lateral Izquierdo",
+      "displayName": "[PLACEHOLDER] Lateral I. N",
+      "position": "LB",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    },
+    {
+      "id": "n-7",
+      "fullName": "[PLACEHOLDER] Jugador Volante de Marca",
+      "displayName": "[PLACEHOLDER] Volante Marca N",
+      "position": "DM",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    },
+    {
+      "id": "n-8",
+      "fullName": "[PLACEHOLDER] Jugador Enganche",
+      "displayName": "[PLACEHOLDER] Enganche N",
+      "position": "AM",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    },
+    {
+      "id": "n-9",
+      "fullName": "[PLACEHOLDER] Jugador Extremo Derecho",
+      "displayName": "[PLACEHOLDER] Extremo D. N",
+      "position": "RW",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    },
+    {
+      "id": "n-10",
+      "fullName": "[PLACEHOLDER] Jugador Extremo Izquierdo",
+      "displayName": "[PLACEHOLDER] Extremo I. N",
+      "position": "LW",
+      "nationality": [
+        "UY"
+      ],
+      "homegrown": false
+    }
+  ],
+  "transfers": [],
+  "timeline": [
+    {
+      "id": "t-fundacion",
+      "date": "1899",
+      "precision": "year",
+      "title": "Fundación del club",
+      "summary": "[PLACEHOLDER] Fundación de Nacional.",
+      "kind": "fundacion",
+      "weight": 5,
+      "source": null,
+      "verified": false
+    }
+  ],
+  "honours": [
+    {
+      "id": "h-uy-primera",
+      "competition": "Campeonato Uruguayo de Primera División",
+      "scope": "nacional",
+      "count": {
+        "value": 0,
+        "source": null,
+        "verified": false
+      },
+      "years": []
+    }
+  ],
+  "derbies": [
+    "clasico-uruguayo"
+  ],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.15,
+    "editorialStatus": "draft"
+  }
+}

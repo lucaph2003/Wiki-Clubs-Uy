@@ -1,0 +1,94 @@
+{
+  "slug": "parque-del-plata",
+  "name": "Club Deportivo Parque del Plata",
+  "shortName": "Parque del Plata",
+  "nickname": "[PLACEHOLDER]",
+  "foundedYear": 0,
+  "city": "[PLACEHOLDER]",
+  "division": "otra",
+  "crest": {
+    "id": "parque-del-plata-crest",
+    "kind": "image",
+    "src": "/media/clubs/parque-del-plata/logo.png",
+    "alt": "Escudo de Parque del Plata: óvalo verde con tres pinos blancos y las iniciales \"C.D.P.P.\"",
+    "license": "unknown",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#007050",
+      "secondary": "#FFFFFF",
+      "preferredScheme": "dark",
+      "note": "Colores leídos del escudo (verde y blanco)."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 0,
+        "toYear": null,
+        "asset": {
+          "id": "parque-del-plata-crest",
+          "kind": "image",
+          "src": "/media/clubs/parque-del-plata/logo.png",
+          "alt": "Escudo de Parque del Plata: óvalo verde con tres pinos blancos y las iniciales \"C.D.P.P.\"",
+          "license": "unknown"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": []
+  },
+  "stature": {
+    "score": 5,
+    "tier": "emergente",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "parque-del-plata-sede",
+      "name": "[PLACEHOLDER]",
+      "neighborhood": "[PLACEHOLDER]",
+      "city": "[PLACEHOLDER]",
+      "location": {
+        "lat": -34.9011,
+        "lng": -56.1645
+      },
+      "gallery": [],
+      "hinchada": [],
+      "trapos": [],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Sin datos verificados de sede o estadio.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": []
+  },
+  "squad": [],
+  "transfers": [],
+  "timeline": [],
+  "honours": [],
+  "derbies": [],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.05,
+    "editorialStatus": "draft"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "villa-teresa",
+  "name": "Villa Teresa",
+  "shortName": "Villa Teresa",
+  "nickname": "[PLACEHOLDER]",
+  "foundedYear": 0,
+  "city": "Montevideo",
+  "division": "otra",
+  "crest": {
+    "id": "villa-teresa-crest",
+    "kind": "image",
+    "src": "/media/clubs/villa-teresa/logo.png",
+    "alt": "Escudo de Villa Teresa: escudo rojo y blanco con dos alas, una pelota de fútbol y las iniciales \"C.A.O.V.T.\"",
+    "license": "unknown",
+    "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+  },
+  "identity": {
+    "colors": {
+      "primary": "#E00000",
+      "secondary": "#FFFFFF",
+      "preferredScheme": "dark",
+      "note": "[PLACEHOLDER] Las iniciales \"C.A.O.V.T.\" se leen en el escudo pero no se expande su significado por no tener fuente que lo confirme. \"Villa Teresa\" es un barrio de Montevideo, de ahí la ciudad indicada. Rojo leído del escudo, ligeramente oscurecido (#F00000 → #E00000) para cumplir contraste AA en texto sobre el color de marca (§6.4)."
+    },
+    "crestHistory": [
+      {
+        "id": "crest-v1",
+        "fromYear": 0,
+        "toYear": null,
+        "asset": {
+          "id": "villa-teresa-crest",
+          "kind": "image",
+          "src": "/media/clubs/villa-teresa/logo.png",
+          "alt": "Escudo de Villa Teresa: escudo rojo y blanco con dos alas, una pelota de fútbol y las iniciales \"C.A.O.V.T.\"",
+          "license": "unknown"
+        },
+        "description": "[PLACEHOLDER] Versión vigente del escudo."
+      }
+    ],
+    "kits": [],
+    "chants": [],
+    "supporterVideos": [],
+    "mottos": []
+  },
+  "stature": {
+    "score": 5,
+    "tier": "emergente",
+    "breakdown": {
+      "nationalTitles": 0,
+      "continentalTitles": 0,
+      "yearsInTopFlight": 0,
+      "culturalWeight": 0,
+      "activeSupportBase": 0
+    }
+  },
+  "spaces": {
+    "stadium": {
+      "id": "villa-teresa-sede",
+      "name": "[PLACEHOLDER]",
+      "neighborhood": "[PLACEHOLDER]",
+      "city": "Montevideo",
+      "location": {
+        "lat": -34.9011,
+        "lng": -56.1645
+      },
+      "gallery": [],
+      "hinchada": [
+        {
+          "id": "villa-teresa-media-0",
+          "kind": "image",
+          "src": "/media/clubs/villa-teresa/hinchada_1.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Villa Teresa, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        },
+        {
+          "id": "villa-teresa-media-1",
+          "kind": "image",
+          "src": "/media/clubs/villa-teresa/hinchada_3.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Villa Teresa, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        },
+        {
+          "id": "villa-teresa-media-2",
+          "kind": "image",
+          "src": "/media/clubs/villa-teresa/hinchada_4.png",
+          "alt": "[PLACEHOLDER] Foto de la hinchada de Villa Teresa, sin descripcion confirmada",
+          "license": "unknown",
+          "credit": "[PLACEHOLDER] imagen provista por el usuario, pendiente de confirmar licencia"
+        }
+      ],
+      "trapos": [],
+      "panoramas": [],
+      "description": {
+        "value": "[PLACEHOLDER] Sin datos verificados de sede o estadio.",
+        "source": null,
+        "verified": false
+      }
+    },
+    "landmarks": [],
+    "routes": []
+  },
+  "institution": {
+    "president": null,
+    "boardMembers": [],
+    "finances": []
+  },
+  "squad": [],
+  "transfers": [],
+  "timeline": [],
+  "honours": [],
+  "derbies": [],
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-01-01",
+    "completeness": 0.05,
+    "editorialStatus": "draft"
+  }
+}

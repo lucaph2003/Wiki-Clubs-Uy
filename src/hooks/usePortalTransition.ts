@@ -1,0 +1,38 @@
+import { useNavigate } from 'react-router';
+import { useSkinStore } from '@/stores/skinStore';
+import { buildSkin } from '@/domain/logic/skin';
+import { usePrefersReducedMotion } from './usePrefersReducedMotion';
+import type { ClubSummary } from '@/domain/types';
+
+interface ViewTransition {
+  finished: Promise<void>;
+}
+
+export function usePortalTransition(): (club: ClubSummary) => Promise<void> {
+  const navigate = useNavigate();
+  const applySkin = useSkinStore((s) => s.apply);
+  const setTransitioning = useSkinStore((s) => s.setTransitioning);
+  const reduced = usePrefersReducedMotion();
+
+  return async function enterClub(club: ClubSummary): Promise<void> {
+    const skin = buildSkin(club);
+    const go = (): void => {
+      applySkin(skin);
+      navigate(`/club/${club.slug}`);
+    };
+
+    const startViewTransition = (
+      document as Document & { startViewTransition?: (cb: () => void) => ViewTransition }
+    ).startViewTransition;
+
+    if (reduced || !startViewTransition) {
+      go();
+      return;
+    }
+
+    setTransitioning(true);
+    const transition = startViewTransition.call(document, go);
+    await transition.finished.catch(() => {});
+    setTransitioning(false);
+  };
+}
