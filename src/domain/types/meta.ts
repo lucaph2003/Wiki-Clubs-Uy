@@ -12,6 +12,8 @@ export interface RecordMeta {
 export interface Skin {
   clubSlug: Slug;
   scheme: 'light' | 'dark';
+  /** Escudo que se usa como favicon mientras el club está activo. */
+  favicon: string;
   /** Mapa listo para `style.setProperty`. Las claves SON los nombres de las vars. */
   tokens: Record<string, string>;
 }

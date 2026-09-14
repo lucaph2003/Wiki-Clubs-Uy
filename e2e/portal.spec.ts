@@ -23,6 +23,16 @@ test('búsqueda de club se enfoca con la tecla "/"', async ({ page }) => {
   await expect(page.getByLabel('Buscar club')).toBeFocused();
 });
 
+test('el skin vuelve a neutral al salir de un club', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Entrar a Club Atlético Peñarol' }).click();
+  await expect(page.locator('html')).toHaveAttribute('data-skin', 'penarol');
+
+  await page.getByRole('link', { name: 'Volver a la grilla' }).click();
+  await expect(page).toHaveURL(/\/$/);
+  await expect(page.locator('html')).toHaveAttribute('data-skin', 'neutral');
+});
+
 test('clásico: split screen y voto en encuesta', async ({ page }) => {
   await page.goto('/clasico/clasico-uruguayo');
   await expect(page.getByRole('heading', { name: 'Clásico Uruguayo' })).toBeVisible();
@@ -36,4 +46,10 @@ test('clásico: split screen y voto en encuesta', async ({ page }) => {
 test('ruta inexistente muestra el estado 404', async ({ page }) => {
   await page.goto('/no-existe');
   await expect(page.getByRole('heading', { name: 'Esto no existe' })).toBeVisible();
+});
+
+test('club inexistente muestra el estado 404 skinneado', async ({ page }) => {
+  await page.goto('/club/no-existe');
+  await expect(page.getByRole('heading', { name: 'Esto no existe' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Volver al inicio' })).toBeVisible();
 });

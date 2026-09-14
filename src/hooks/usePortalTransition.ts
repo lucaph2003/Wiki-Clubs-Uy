@@ -8,10 +8,17 @@ interface ViewTransition {
   finished: Promise<void>;
 }
 
+const FALLBACK_HALF_DURATION_MS = 60;
+
+function wait(ms: number): Promise<void> {
+  return new Promise((resolve) => window.setTimeout(resolve, ms));
+}
+
 export function usePortalTransition(): (club: ClubSummary) => Promise<void> {
   const navigate = useNavigate();
   const applySkin = useSkinStore((s) => s.apply);
   const setTransitioning = useSkinStore((s) => s.setTransitioning);
+  const setFallbackTransitioning = useSkinStore((s) => s.setFallbackTransitioning);
   const reduced = usePrefersReducedMotion();
 
   return async function enterClub(club: ClubSummary): Promise<void> {
@@ -26,7 +33,11 @@ export function usePortalTransition(): (club: ClubSummary) => Promise<void> {
     ).startViewTransition;
 
     if (reduced || !startViewTransition) {
+      setFallbackTransitioning(true);
+      await wait(FALLBACK_HALF_DURATION_MS);
       go();
+      await wait(FALLBACK_HALF_DURATION_MS);
+      setFallbackTransitioning(false);
       return;
     }
 

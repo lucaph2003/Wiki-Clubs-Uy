@@ -6,6 +6,13 @@
   animation-timing-function: var(--motion-ease, cubic-bezier(0.16, 1, 0.3, 1));
 }
 
+/* Fallback para navegadores sin View Transitions y para movimiento reducido. */
+.portal-fallback {
+  opacity: 0;
+  transition: opacity 60ms var(--motion-ease, ease);
+  will-change: opacity;
+}
+
 @media (prefers-reduced-motion: reduce) {
   ::view-transition-old(*),
   ::view-transition-new(*) {

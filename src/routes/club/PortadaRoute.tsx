@@ -1,4 +1,5 @@
 import { Link, useOutletContext } from 'react-router';
+import { EditorialNotice } from '@/components/ui/EditorialNotice';
 import { formatYear } from '@/lib/format';
 import type { Club } from '@/domain/types';
 
@@ -13,6 +14,7 @@ export function PortadaRoute(): React.ReactElement {
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
+      <EditorialNotice meta={club.meta} />
       <section className="mb-10">
         <p className="text-club-ink-muted">{club.city} · {formatYear(club.foundedYear)}</p>
         <h2 className="mt-1 text-2xl font-bold">{club.nickname}</h2>

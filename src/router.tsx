@@ -8,10 +8,12 @@ import { IdentidadRoute } from '@/routes/club/IdentidadRoute';
 import { InstitucionRoute } from '@/routes/club/InstitucionRoute';
 import { DerbyRoute, derbyLoader } from '@/routes/derby/DerbyRoute';
 import { NotFoundRoute } from '@/routes/not-found/NotFoundRoute';
+import { RouteError } from '@/routes/not-found/RouteError';
 
 export const router = createBrowserRouter([
   {
     element: <RootLayout />,
+    errorElement: <RouteError />,
     children: [
       { index: true, element: <IndexRoute />, loader: indexLoader },
       {

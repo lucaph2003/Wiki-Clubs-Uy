@@ -101,6 +101,13 @@ export function PhotoLightbox({
         onClick={(event) => event.stopPropagation()}
       />
 
+      {(photo.credit || photo.license) && (
+        <p className="absolute bottom-4 max-w-[90vw] rounded-full bg-black/60 px-3 py-1 text-center text-xs text-white">
+          {photo.credit ?? 'Crédito pendiente'}
+          {photo.license ? ` · Licencia: ${photo.license}` : ''}
+        </p>
+      )}
+
       {photos.length > 1 && (
         <button
           type="button"

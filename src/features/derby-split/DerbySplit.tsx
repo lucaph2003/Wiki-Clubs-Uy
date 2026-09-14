@@ -6,8 +6,9 @@ import type { Derby, DerbySide } from '@/domain/types';
 function sideSkinTokens(side: DerbySide): Record<string, string> {
   const skin = buildSkin({
     slug: side.clubSlug,
+    crest: side.crest,
     identity: { colors: side.colors },
-  } as Parameters<typeof buildSkin>[0]);
+  });
   return skin.tokens;
 }
 

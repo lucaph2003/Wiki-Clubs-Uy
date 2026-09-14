@@ -117,7 +117,7 @@ export function PanoViewer({ spot }: { spot: PanoramaSpot }): React.ReactElement
     window.addEventListener('pointerup', onPointerUp);
     el.addEventListener('touchmove', onTouchMove, { passive: false });
     el.addEventListener('touchend', onTouchEnd);
-    el.addEventListener('keydown', onKeyDown);
+    container.addEventListener('keydown', onKeyDown);
     window.addEventListener('resize', onResize);
 
     return () => {
@@ -127,7 +127,7 @@ export function PanoViewer({ spot }: { spot: PanoramaSpot }): React.ReactElement
       window.removeEventListener('pointerup', onPointerUp);
       el.removeEventListener('touchmove', onTouchMove);
       el.removeEventListener('touchend', onTouchEnd);
-      el.removeEventListener('keydown', onKeyDown);
+      container.removeEventListener('keydown', onKeyDown);
       window.removeEventListener('resize', onResize);
       geometry.dispose();
       material.dispose();

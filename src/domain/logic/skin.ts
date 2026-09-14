@@ -1,13 +1,16 @@
 import { bestInkOn, ensureContrast, mixToward, relativeLuminance } from '@/lib/color';
-import type { Club, ClubSummary, Skin } from '@/domain/types';
+import type { ClubSummary, Skin } from '@/domain/types';
+
+/** Datos mínimos para derivar un skin, también disponibles en cada lado de un clásico. */
+export type SkinSource = Pick<ClubSummary, 'slug' | 'crest' | 'identity'>;
 
 /** Umbrales WCAG AA. Texto grande (≥24px o ≥19px bold) puede usar LARGE. */
 export const AA_TEXT = 4.5;
 export const AA_LARGE = 3;
 export const AA_UI = 3; // bordes, iconos, estados de foco
 
-/** Acepta ClubSummary porque la grilla construye el skin antes de cargar el club completo. */
-export function buildSkin(club: Club | ClubSummary): Skin {
+/** Acepta datos mínimos para que la grilla y los clásicos no carguen un club completo. */
+export function buildSkin(club: SkinSource): Skin {
   const { primary, secondary, accent, preferredScheme } = club.identity.colors;
 
   const scheme = preferredScheme ?? (relativeLuminance(primary) < 0.35 ? 'dark' : 'light');
@@ -21,6 +24,7 @@ export function buildSkin(club: Club | ClubSummary): Skin {
   return {
     clubSlug: club.slug,
     scheme,
+    favicon: club.crest.src,
     tokens: {
       '--club-primary': primary,
       '--club-secondary': secondary,

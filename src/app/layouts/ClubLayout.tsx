@@ -22,6 +22,7 @@ export function ClubLayout(): React.ReactElement {
 
   useLayoutEffect(() => {
     apply(buildSkin(club));
+    document.title = `${club.shortName} — Garra`;
   }, [club, apply]);
 
   useEffect(() => {
